@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body div {
+  height: 100%;
+}
+
+header, footer {
+  background-color: #444;
+  color: #fff;
+  padding: 0.5em 0.25em;
+  margin: 0;
+}
+
+nav {
+  background-color: orange;
+}
+
+nav a {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.25em 0.5em;
+}
+
+nav a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+article {
+  flex: 1;
+}
